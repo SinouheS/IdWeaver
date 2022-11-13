@@ -1,11 +1,12 @@
 <template>
-  <Tutorial />
+  <div class="content p-5">
+  </div>
 </template>
 
-<script lang="ts">
-import Vue from 'vue'
-
-export default Vue.extend({
-  name: 'IndexPage',
-})
+<script>
+export default {
+  mounted() {
+    console.log(this.$stage);
+  }
+};
 </script>

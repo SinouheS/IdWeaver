@@ -14,8 +14,13 @@
     "test": "jest"
   },
   "dependencies": {
+    "bootstrap-vue": "^2.23.1",
     "core-js": "^3.25.3",
+    "gsap": "^3.11.3",
+    "lodash-es": "^4.17.21",
     "nuxt": "^2.15.8",
+    "three": "^0.146.0",
+    "touch-position": "^2.0.0",
     "vue": "^2.7.10",
     "vue-server-renderer": "^2.7.10",
     "vue-template-compiler": "^2.7.10"
